@@ -151,7 +151,7 @@ footer{
 	background-color: var(--darkgrey);
 	height: 50%;
 	color: var(--black);
-	border-top: 2px solid #555555
+	border-top: 2px solid #555555;
 }
 
 footer h4{
@@ -218,6 +218,11 @@ footer h4{
 	margin-right: 5px;
 	margin-bottom: 5px;
 }
+
+
+
+
+
 
 
 
