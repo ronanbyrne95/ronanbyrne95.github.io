@@ -121,6 +121,7 @@ body{
 	margin-bottom: 10px;
 	font-size: 1.2em;
 	font-family: 'Play', sans-serif;
+	line-height:125%;
 }
 
 #para2{
@@ -130,6 +131,7 @@ body{
 	margin-bottom: 10px;
 	font-size: 1.2em;
 	font-family: 'Play', sans-serif;
+	line-height: 125%;
 }
 
 #para3{
@@ -139,6 +141,7 @@ body{
 	margin-bottom: 30px;
 	font-size: 1.2em;
 	font-family: 'Play', sans-serif;
+	line-height: 125%;
 }
 
 
