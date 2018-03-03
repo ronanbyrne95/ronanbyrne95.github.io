@@ -1,3 +1,10 @@
+:root {
+	--lightgrey: #d5d5d5;
+	--darkgrey: #555555;
+	--black: #000000;
+	--white: #ffffff;
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -20,21 +27,24 @@
 .intro h1{
 	font-size: 50px;
 	line-height: 1.2;
-	color: #d3d3d3;
+	color: var(--lightgrey);
+	text-transform: uppercase;	
 }
 
 .bttn{
-	font-size: 18px;
+	font-size: 25px;
 	text-decoration: none;
-	color:#d3d3d3;
-	border: 2px solid #d3d3d3;
-	padding: 10px 20px;
+	color: var(--white);
+	border: 5px solid var(--white);
+	padding: 15px 25px;
 	border-radius: 10px;
-	margin-top: 20px;
-	margin-bottom: 140px;
+	margin-top: 40px;
+	margin-bottom: 100px;
+	text-transform: uppercase;
+	transition: all 0.7s;
 }
 
 .bttn:hover{
-	color: #999999;
-	border: 2px solid #999999;
+	color: var(--lightgrey);
+	border: 5px solid var(--lightgrey);
 }
