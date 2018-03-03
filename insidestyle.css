@@ -1,6 +1,6 @@
 :root{
 	--lightgrey: #a9a9a9;
-	--darkgrey: #555555;
+	--darkgrey: #55555555;
 	--black: #000000;
 	--white: #ffffff;
 }
@@ -149,6 +149,7 @@ footer{
 	background-color: var(--darkgrey);
 	height: 50%;
 	color: var(--black);
+	border-top: 2px solid #55555;
 }
 
 footer h4{
