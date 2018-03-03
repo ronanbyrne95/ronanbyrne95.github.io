@@ -106,6 +106,14 @@ body{
 	font-family: 'Play', sans-serif;
 }
 
+#circle{
+	height: 150px;
+	margin-left: 7.5%;
+	float: left;
+	shape-outside: ellipse(50% 60%);
+	margin-right: 10px;
+}
+
 #para1{
 	text-align: left;
 	margin-left: 7.5%;
@@ -141,16 +149,15 @@ footer{
 }
 
 footer h4{
+	/**margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: 11%;**/
 	font-size: 20px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 7.5%;
 	font-family: 'Play', sans-serif;
-
-}
-
-#copyright{
-	text-align: center;
+	padding-top: 15px;
+	text-align: center;	
+	padding-bottom: 20px;
+	margin-right: 2%;
 }
 
 .fa {
@@ -166,12 +173,14 @@ footer h4{
 .fa-facebook {
   background: var(--black);
   color: var(--white);
-  margin-left: 7.5%;
+ /** margin-left: 7.5%; **/
 }
 
 .fa-instagram {
   background: var(--black);
   color: var(--white);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .fa:hover{
@@ -181,6 +190,13 @@ footer h4{
 .fa-soundcloud {
   background: var(--black);
   color: var(--white);
+  margin-right:10px;
+}
+
+.fa-github {
+  background: var(--black);
+  color: var(--white);
+  margin-right: 2%;
 }
 
 #circle{
@@ -190,5 +206,16 @@ footer h4{
 	shape-outside: ellipse(50% 60%);
 	margin-right: 10px;
 }
+
+#copyright{
+	text-align: right;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+
+
 
 
