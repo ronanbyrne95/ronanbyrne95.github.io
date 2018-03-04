@@ -50,7 +50,7 @@ body{
 	height: 500px;
 	width: 350px;
 	opacity: 0;
-	transition: .5s ease;
+	transition: 1.2s ease;
 	background-color: var(--black);
 }
 
